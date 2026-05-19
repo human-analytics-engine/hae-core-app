@@ -17,7 +17,7 @@ class HumanAnalyticsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'HAE Core',
+      title: 'HAE',
       theme: ThemeData(useMaterial3: true, brightness: Brightness.dark),
       home: const MainNavigationScreen(),
       debugShowCheckedModeBanner: false,
